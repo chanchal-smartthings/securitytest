@@ -24,6 +24,6 @@ Use Advance Rest client or run following curl REST request
 
 ```
 
-curl --header "Authorization: Bearer token" http://localhost:8080
+curl --header "Authorization: Bearer token" http://localhost:8080/kafka/topic
 
 ```

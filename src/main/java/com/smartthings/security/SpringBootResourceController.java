@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class SpringBootResourceController {
-    @RequestMapping("/secret")
+    @RequestMapping("/kafka/topic")
     public String testMethod() {
         return "Hello you are successfully authenticated by Auth 2.0 server..";
     }
