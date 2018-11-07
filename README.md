@@ -14,16 +14,16 @@ Please configure your auth server information in application.yml file
  
  once done you can run application using below maven command
  
- '''
+ ```
  mvn spring-boot:run
- ''' 
+ ```
 
 Testing : 
 
 Use Advance Rest client or run following curl REST request 
 
-'''
+```
 
 curl --header "Authorization: Bearer token" http://localhost:8080
 
-'''
+```
