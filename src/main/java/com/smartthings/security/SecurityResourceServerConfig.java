@@ -13,7 +13,7 @@ public class SecurityResourceServerConfig extends ResourceServerConfigurerAdapte
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
-                .antMatchers("/secret").hasAuthority("ROLE_USER");
+                .antMatchers("/kafka/**").hasAuthority("ROLE_USER");
     }
 
     @Bean
